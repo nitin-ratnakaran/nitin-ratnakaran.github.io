@@ -27,7 +27,7 @@ minimal_mistakes_skin    : "dirt" #"default" # "air", "aqua", "contrast", "dark"
 locale                   : "en-US"
 title                    : "Nitin R"
 title_separator          : "-"
-subtitle                 : "Software Professional"
+subtitle                 : "Solutions Architect | Java, Microservices, Cloud"
 name                     : "Nitin Ratnakaran"
 description              : "Personal pages for random things."
 url                      : "https://nitin-ratnakaran.github.io"
@@ -112,7 +112,7 @@ analytics:
 author:
   name             : "Nitin Ratnakaran"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "A software professional with interests in Java, Microservices, Cloud"
+  bio              : # "A software professional with interests in Java, Microservices, Cloud"
   location         : "Pune, India"
   email            : "nitin.ratnakaran@gmail.com"
   links:

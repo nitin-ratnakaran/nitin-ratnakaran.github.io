@@ -1,28 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/jekyll/one-more-post/</loc>
-<lastmod>2021-09-19T10:32:35+05:30</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/jekyll/welcome-to-jekyll-copy-2/</loc>
-<lastmod>2021-09-19T10:32:35+05:30</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/jekyll/welcome-to-jekyll-copy-3/</loc>
-<lastmod>2021-09-19T10:32:35+05:30</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/jekyll/welcome-to-jekyll-copy-4/</loc>
-<lastmod>2021-09-19T10:32:35+05:30</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/jekyll/welcome-to-jekyll-copy/</loc>
-<lastmod>2021-09-19T10:32:35+05:30</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/jekyll/welcome-to-jekyll/</loc>
-<lastmod>2021-09-19T10:32:35+05:30</lastmod>
+<loc>http://localhost:4000/blockchain/blockchain-soln-pharma-authentication/</loc>
+<lastmod>2021-09-28T00:00:00+05:30</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/about/</loc>
@@ -41,8 +21,5 @@
 </url>
 <url>
 <loc>http://localhost:4000/year-archive/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/page2/</loc>
 </url>
 </urlset>
