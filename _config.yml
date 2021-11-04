@@ -229,7 +229,7 @@ sass:
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
-paginate_path: /page:num/
+paginate_path: /blog/page:num/
 timezone: Asia/Kolkata
 
 
@@ -239,6 +239,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
+  - jemoji
   - jekyll-include-cache
 
 # mimic GitHub Pages with --safe
@@ -247,6 +248,7 @@ whitelist:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
+  - jemoji
   - jekyll-include-cache
 
 
@@ -286,6 +288,11 @@ compress_html:
   ignore:
     envs: development
 
+        
+collections:
+  study_notes:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -301,3 +308,17 @@ defaults:
       share: true
       related: true
       show_date: true
+  # _study_notes
+  - scope:
+      path: ""
+      type: study_notes
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: "study_notes"
+
+

@@ -1,4 +1,24 @@
 ---
-layout: home
-author_profile: true
+title: Nitin Ratnakaran
+layout: splash
+header:
+  overlay_color: "#000"
+intro: 
+  - excerpt: 'I love learning about software engineering. This is a personal website where I put share my blogs and study notes'
+
+feature_row:
+  - title: "Blog"
+    excerpt: "Articles on topics"
+    url: "/blog/"
+    btn_label: "Read Blog"
+    btn_class: "btn--primary"
+  - title: "Study Notes"
+    excerpt: "Some study notes for AWS"
+    url: "#test-link"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+
 ---
+
+{% include feature_row id="intro" type="center" %}
+{% include feature_row %}
