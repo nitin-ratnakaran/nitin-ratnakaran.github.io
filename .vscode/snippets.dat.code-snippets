@@ -26,5 +26,29 @@
 		"body": ["{% include toc %}", 
 			"$0"
 		]
+	},
+
+	"Post Frontmatter": {
+		"prefix": "_frontmatter",
+		"body": [
+			"---",
+			"title:  $0",
+			"date:   2021-09-28 00:00:00 +0530",
+			"categories: ",
+			"  - ", 
+			"tags: ",
+			"  - ",
+			"excerpt: ",
+			"header:",
+			"  overlay_image: ",
+			"  overlay_filter: 0.7",
+			"  caption: \"Photo by []() on [Unsplash]()\"",
+			"---"
+		]
+	},
+
+	"Include Figure": {
+		"prefix": "_figure",
+		"body": "{% include figure image_path=\"$0\" alt=\"\" caption=\"\" %}"
 	}
 }

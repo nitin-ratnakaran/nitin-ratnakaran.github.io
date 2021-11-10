@@ -7,7 +7,12 @@ tags:
   - hyperledger-fabric
   - java
 excerpt: "Can blockchain help to counter fake medicines and vaccines from entering the market?"
+header:
+  overlay_image: /assets/images/vaccine-schluditsch-unsplash.jpg
+  overlay_filter: 0.7
+  caption: "Photo by [Daniel Schludi](https://unsplash.com/@schluditsch?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/vaccine?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)"
 ---
+
 **News Headline:** Over 2,000 in Mumbai duped in fake vaccine drives, says Govt [<i class="fas fa-xs fa-link" aria-hidden="true"></i>][1]{:target="_blank"}
 {: .notice--warning}
 
