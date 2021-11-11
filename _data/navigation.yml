@@ -1,13 +1,10 @@
 main:
-  - title: "Posts"
-    url: /year-archive/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
-  - title: "About"
-    url: /about/
+  - title: "Blog"
+    url: /blog/
   - title: "Study Notes"
     url: /study_notes/
-  - title: "Sample Collections"
-    url: /collection-archive/
+  - title: "Blog Archive"
+    url: /blog-archive/
+  - title: "About"
+    url: /about/
+

@@ -290,7 +290,10 @@ compress_html:
 
         
 collections:
-  study_notes:
+  notes_aws:
+    output: true
+    permalink: /:collection/:path/
+  notes_architecture:
     output: true
     permalink: /:collection/:path/
 
@@ -302,23 +305,34 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: false
+      author_profile: true
       read_time: true
       comments: true
       share: true
       related: true
       show_date: true
-  # _study_notes
+  # _notes_aws
   - scope:
       path: ""
-      type: study_notes
+      type: notes_aws
     values:
       layout: single
       read_time: false
-      author_profile: false
+      author_profile: true
       share: false
       comments: false
       sidebar:
-        nav: "study_notes"
-
+        nav: "notes_aws"
+  # _notes_architecture
+  - scope:
+      path: ""
+      type: notes_architecture
+    values:
+      layout: single
+      read_time: false
+      author_profile: true
+      share: false
+      comments: false
+      sidebar:
+        nav: "notes_architecture"
 

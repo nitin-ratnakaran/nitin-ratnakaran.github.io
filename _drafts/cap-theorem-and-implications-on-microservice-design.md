@@ -21,7 +21,7 @@ The theorem states states that any distributed data store can only provide two o
 - **Partition tolerance**: The system continues to operate despite an arbitrary number of messages being dropped (or delayed) by the network between nodes.
 {: .notice--info}
 
-What this essentially means is that in the event of a network failure, your distributed system gets partitioned. When that happens you will have to choose between whether your system provides **Consistency** or **Availability**
+What this essentially means is that in the event of a network failure, your distributed system gets partitioned and you will have to choose between whether your system responds by providing **Consistency** or **Availability**
 
 {% include figure image_path="/assets/images/cap-theorem-fig01.svg" alt="" caption="A partitioned system" %}
 
@@ -29,10 +29,18 @@ What this essentially means is that in the event of a network failure, your dist
 {: .notice--info}
 
 ## Implications for microservice design
-This theorem is about choosing between data (state) being available or consistent in the event of partitions. If your microservices are stateless (as they should be!) then you dont have to worry about this. At least not at the business layer. 
+This theorem is about choosing between data (state) being available or consistent in the event of network failure. If your microservices are stateless (as they should be!) then you dont have to worry about this. At least not at the business layer. 
 
 If for some reason your microservices are stateful, see if you can live with having a single instance. Scale vertically if required, but avoid horizontal scaling. If you don't have peers then you don't have to worry about getting partitioned. 
 
-Recovering from this condition requires some heavy lifting (See above link on Split Brain) and is best avoided. 
+Recovering from partitioned state requires some pretty heavy lifting to bring them back in sync (See some strategies at above url on Split Brain). Its best to just avoid getting into that situation. 
 
-Now comes the real meat. Choosing your data persistence layer. 
+Now comes the part where CAP theorem becomes a more significant driver in your architectural design. Choosing your data persistence layer. In most non-trivial applications you will require multi-node databases for reasons of scalability (read replicas) and disaster recovery. 
+
+Almost all the relational databases favour consistency over availability. This comes from their support for [ACID](https://en.wikipedia.org/wiki/ACID){:target="_blank"} (atomicity, consistency, isolation, durability) transactions. The No-SQL databases on the other hand favour availability over consistency and support eventual consistency, ([BASE](https://en.wikipedia.org/wiki/Eventual_consistency){:target="_blank"}). The acronym is an opposite to ACID!! (High school chemistry flashback!!)
+
+
+
+
+## Further reading and references
+- [Where does mongodb stand in the CAP theorem?](https://stackoverflow.com/questions/11292215/where-does-mongodb-stand-in-the-cap-theorem)
