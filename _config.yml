@@ -21,20 +21,20 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 remote_theme             : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dirt" #"default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dark" #"default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Nitin R"
+title                    : "Tech Bytez by Nitin R"
 title_separator          : "-"
-subtitle                 : "Solutions Architect | Java, Microservices, Cloud"
+subtitle                 : "Snack on small tidbits of tech related info"
 name                     : "Nitin Ratnakaran"
 description              : "Personal pages for random things."
 url                      : "https://nitin-ratnakaran.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "nitin-ratnakaran/nitin-ratnakaran.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : "/images/nr-logo.svg" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -111,7 +111,7 @@ analytics:
 # Site Author
 author:
   name             : "Nitin Ratnakaran"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/images/nr-logo.svg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : # "A software professional with interests in Java, Microservices, Cloud"
   location         : "Pune, India"
   email            : "nitin.ratnakaran@gmail.com"
@@ -305,7 +305,7 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: true
       comments: true
       share: true
@@ -317,10 +317,11 @@ defaults:
       type: notes_aws
     values:
       layout: single
-      read_time: false
-      author_profile: true
-      share: false
-      comments: false
+      read_time: true
+      author_profile: false
+      share: true
+      comments: true
+      related: true
       sidebar:
         nav: "notes_aws"
   # _notes_architecture
@@ -329,10 +330,11 @@ defaults:
       type: notes_architecture
     values:
       layout: single
-      read_time: false
-      author_profile: true
-      share: false
-      comments: false
+      read_time: true
+      author_profile: false
+      share: true
+      comments: true
+      related: true
       sidebar:
         nav: "notes_architecture"
 

@@ -5,5 +5,5 @@ permalink: /notes_aws/
 collection: notes_aws
 entries_layout: grid
 classes: wide
-author_profile: true
+author_profile: false
 ---

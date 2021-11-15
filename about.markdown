@@ -5,15 +5,12 @@ permalink: /about/
 author_profile: true
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Hi, I'm Nitin Ratnakaran. 
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+I'm a software enthusiast and I love exploring and learning about Java, microservices, cloud and software architecture. They say that you haven't really understood something unless you can explain it to others. And thats why I started writing this blog site. 
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+I hope that the little bytez of knowledge that I collect and share can be useful to others looking for the same answers. 
 
+So please feel free to explore, comment and share. Happy reading !!
 
-[jekyll-organization]: https://github.com/jekyll
+You can also reach out to me via any of the links given on the left. 

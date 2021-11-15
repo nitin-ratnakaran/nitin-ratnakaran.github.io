@@ -5,5 +5,5 @@ permalink: /notes_architecture/
 collection: notes_architecture
 entries_layout: grid
 classes: wide
-author_profile: true
+author_profile: false
 ---
