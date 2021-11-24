@@ -3,6 +3,7 @@ layout: single
 title: About
 permalink: /about/
 author_profile: true
+comments: true
 ---
 
 Hi, I'm Nitin Ratnakaran. 
@@ -13,4 +14,4 @@ I hope that the little bytez of knowledge that I collect and share can be useful
 
 So please feel free to explore, comment and share. Happy reading !!
 
-You can also reach out to me via any of the links given on the left. 
+You can also reach out to me via any of the links given below. 

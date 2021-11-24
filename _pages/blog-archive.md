@@ -9,11 +9,6 @@ permalink: /blog-archive/
 entries_layout: grid
 classes: wide
 feature_row:
-  - title: "By Year"
-    excerpt: 
-    url: "/year-archive/"
-    btn_label: "Get all"
-    btn_class: "btn--primary"
   - title: "By Category"
     excerpt: 
     url: "/categories/"
@@ -24,6 +19,11 @@ feature_row:
     url: "/tags/"
     btn_label: "Get all"
     btn_class: "btn--primary"
+  - title: "By Year"
+    excerpt: 
+    url: "/year-archive/"
+    btn_label: "Get all"
+    btn_class: "btn--primary"    
 ---
 
 {% include feature_row %}
