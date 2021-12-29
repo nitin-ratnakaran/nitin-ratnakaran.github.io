@@ -48,16 +48,29 @@ While searching for a simple open-sourced blockchain platform that we could use 
 
 ## Use Case
 Principal actors are:
-- **Manufacturer** of the vaccine or medicine (henceforth called as asset)
+- **Manufacturer** of the vaccine or medicine (asset)
 - **Traders**, both wholesale and retail, who form the supply chain between the manufacturer and the end consumer. 
-- A **regulator** who administers the entire system
+- A **Regulator** who administers the entire system
 - The end **consumer** who would like to verify the authenticity 
 
 {% include figure image_path="/assets/images/asset-tracking-usecase-fig01.svg" alt="" caption="Use Case Diagram" %}
 
-Key Requirements:
-- Manufacturers should be 
-The manufacturer would like to have all the assets manufactured by him to be recorded on the blockchain so that he can assure his end customers that they are buying a genuine product. Only a certified manufacturer would have permission to add assets on to the blockchain 
+### Key Requirements:
+- Manufacturers would like to have all the assets manufactured by them to be recorded on the blockchain so that they can assure their end customers that they are buying a genuine product. Only a certified manufacturer would have permission to add assets on to the blockchain 
+- Certified traders would be the only ones to participate in transfer of asset from one owner to another. 
+- Spurious traders or black marketeers would not have access to the system and would not be able to add fake products on to the blockchain.
+- End customer would be able to query the asset id on a website controlled by regulators. Only genuine products would be available on the website that is internally backed by the blockchain.
+
+
+## Architecture
+
+The overall architecture of the system would look something like this
+{% include figure image_path="/assets/images/App-Design-blockchain-architecture.png" alt="" caption="Architecture diagram" %}
+
+{% include figure image_path="/assets/images/App-Design-state-diagram.png" alt="" caption="State diagram" %}
+
+
+
 
 
 ---
