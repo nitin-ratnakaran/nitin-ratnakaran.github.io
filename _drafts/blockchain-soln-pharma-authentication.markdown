@@ -1,17 +1,22 @@
 ---
-title:  "Pharma authentication using Blockchain"
+title:  "Pharma verification using Blockchain"
 date:   2021-09-28 00:00:00 +0530
 categories: 
   - blockchain 
 tags: 
   - hyperledger-fabric
   - java
+  - blockchain
+  - tutorial
+  - project
 excerpt: "Can blockchain help to counter fake medicines and vaccines from entering the market?"
 header:
   overlay_image: /assets/images/vaccine-schluditsch-unsplash.jpg
   overlay_filter: 0.7
   caption: "Photo by [Daniel Schludi](https://unsplash.com/@schluditsch?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/vaccine?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)"
 ---
+
+{% include toc %}
 
 **News Headline:** Over 2,000 in Mumbai duped in fake vaccine drives, says Govt [<i class="fas fa-xs fa-link" aria-hidden="true"></i>][1]{:target="_blank"}
 {: .notice--warning}
@@ -23,18 +28,16 @@ header:
 {: .notice--warning}
 
 
-Covid-19 has been bad enough for all of us, but these kind of incidents reveal just how much worse things can get when you throw in human greed. It is said that we should never let a crisis go waste. These peddlers of fake vaccines and medicines seem to have taken this saying to heart and also profited handsomely. 
+Covid-19 has been bad enough for all of us, but these kind of incidents reveal just how much worse things can get when you throw in human greed. It is said that we should never let a crisis go waste. These peddlers of fake vaccines and medicines seem to have taken this saying to heart and tried to make quick bucks. 
 
-Recently at work, we had a hackathon to ideate and build solutions around the theme of Covid. A bunch of us decided to tackle the above problem and develop a solution to verify the authenticity of the medicines and vaccines we consume. After some brainstorming, we decided to explore blockchain as a tool for building this solution. As none of us were familiar with blockchain, we spent some time familiarizing ourselves with the various blockchain platforms available and coming up with a very basic design. The below post gives an introduction to blockchain as we understood and the very simple app that we created. 
-
-{% include toc %}
+Recently at work, we had a hackathon to ideate and build solutions around the theme of Covid. A bunch of us decided to tackle the above problem and develop a prrof-of-concept solution to verify the authenticity of the medicines and vaccines we consume. After some brainstorming, we decided to explore blockchain as a tool for building this solution. As none of us were familiar with blockchain, this was also a great opportunity to familiarize ourselves with the various blockchain platforms available. The below post gives an introduction to blockchain as we understood and the very simple app that we created. 
 
 
 ## What is Blockchain?
-Blockchain, in very simple terms, is a technology that allows us to record information in a way that makes it practically impossible to modify or tamper with. The [Wikipedia article][4]{:target="_blank"} is a good place to start if you are new to Blockchain.
+Blockchain, in very simple terms, is a technology that allows us to record information in a way that makes it practically impossible to modify or tamper with. This [Wikipedia article][4]{:target="_blank"} is a good place to start if you are new to Blockchain.
 
 ## Permissionless and Permissioned Blockchains
-While searching for a simple open-sourced blockchain platform, that we could use for our mini-project, we encountered two types of blockchain platforms. **Permissionless** and **Permissioned**. A brief comparison is given below. For a more detailed comparison, check [here][5]{:target="_blank"}.
+While searching for a simple open-sourced blockchain platform that we could use for our mini-project, we encountered two types of blockchain platforms. **Permissionless** and **Permissioned**. A brief comparison is given below. For a more detailed comparison, check [here][5]{:target="_blank"}.
 
 | Permissionless | Permissioned |
 |----------------|--------------|
@@ -43,8 +46,19 @@ While searching for a simple open-sourced blockchain platform, that we could use
 | Since anyone can submit transactions, a *proof of work* has to be performed, before the transaction is verified and added to the chain. | Transactions are digitally signed by certificates and once the signature is verified by all participants, the transaction is added to chain. No proof of work required.
 
 
+## Use Case
+Principal actors are:
+- **Manufacturer** of the vaccine or medicine (henceforth called as asset)
+- **Traders**, both wholesale and retail, who form the supply chain between the manufacturer and the end consumer. 
+- A **regulator** who administers the entire system
+- The end **consumer** who would like to verify the authenticity 
 
-This is a nother para
+{% include figure image_path="/assets/images/asset-tracking-usecase-fig01.svg" alt="" caption="Use Case Diagram" %}
+
+Key Requirements:
+- Manufacturers should be 
+The manufacturer would like to have all the assets manufactured by him to be recorded on the blockchain so that he can assure his end customers that they are buying a genuine product. Only a certified manufacturer would have permission to add assets on to the blockchain 
+
 
 ---
 [1]: https://timesofindia.indiatimes.com/india/over-2000-in-mumbai-duped-in-fake-vaccine-drives-says-govt/articleshow/83827768.cms
