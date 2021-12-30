@@ -1,4 +1,0 @@
----
----
-
-List of AWS resources
