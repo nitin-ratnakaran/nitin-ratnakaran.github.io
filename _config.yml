@@ -80,7 +80,7 @@ google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
 # SEO Related
-google_site_verification : 656k8skluUXyoojcd51smJb3LKgq1P0SKqC167_AyYg
+google_site_verification : VVZG2WcLo0YMe6WqELAUJsVc_9ILgJrVQHvCc_f-wn0
 bing_site_verification   : 
 yandex_site_verification :
 naver_site_verification  :
@@ -106,7 +106,6 @@ analytics:
   google:
     tracking_id          : G-7EG7LV9203
     anonymize_ip         : true # true, false (default)
-
 
 # Site Author
 author:
