@@ -55,8 +55,18 @@ Most enterprise applications are at this stage before they start their microserv
 - [Pattern: Monolithic Architecture][1]{:target="_blank"}
 
 ### Tightly Coupled Services
+Applications that start migrating towards microservices, if not done correctly, can end up in this state. And there is a good reason for that. Most monolith applications are internally modularized as layers using **Layered Architecture** or [**N-Tiered Architecture**][3], and thats a good thing. Applications mave have a presentation layer, an API layer, a services layer, a batch-processing layer etc. For folks getting started with microservices, these layer boundaries can seem like very obvious candidates for microservice boundaries. But beware, *down that path lies madness*. The monolith when broken up along these *horizontal* boundaries can end up becoming a [**Distributed Monolith**][4]. The typical symptoms of this condition are : 
+- Tightly coupled services which together make up a single function.
+- Services which are too chatty with each other
+- Services which share same database tables for read and write.
+
 
 ### Independent Services
+So if layer boundaries are not the right way to slice a monolith, what is?
+
+Enter Domain Driven Design or DDD. DDD popularized the concepts of bounded concepts.
+
+
 
 ### Functions
 
@@ -133,3 +143,5 @@ The infrastructure has progressed from using bare metal servers to virtual machi
 ---
 [1]: https://microservices.io/patterns/monolithic.html
 [2]: https://docs.spring.io/spring-boot/docs/current/reference/html/howto.html#howto.properties-and-configuration
+[3]: https://en.wikipedia.org/wiki/Multitier_architecture
+[4]: https://www.google.com/search?q=distributed+monolith
