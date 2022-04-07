@@ -1,5 +1,5 @@
 ---
-title:  CAP Theorem and microservices
+title: CAP Theorem and microservices
 date: 2021-12-10 00:00:00 +0530
 categories: 
   - microservices
