@@ -50,5 +50,39 @@
 	"Include Figure": {
 		"prefix": "_figure",
 		"body": "{% include figure image_path=\"$0\" alt=\"\" caption=\"\" %}"
+	},
+
+	"AWS Product Page": {
+		"prefix": "_aws-product",
+		"body": [
+			"---",
+			"title:  AWS $0",
+			"date: 2021-12-01 00:00:00 +0530",
+			"categories: ",
+  			"  - AWS",
+			"tags: ",
+			"  - Category",
+			"  - Product",
+			"excerpt: ",
+			"",
+			"---",
+			"",
+			"## Overview",
+			"",
+			"## References",
+			"- [Home Page](https://aws.amazon.com/xxx/?nc2=type_a)",
+			"- [FAQs](https://aws.amazon.com/xxx/faqs/)",
+			"",
+			"## Benefits",
+			"- ",
+			"",
+			"",
+			"## How it works",
+			"",
+			"",
+			"## Features",
+			"- ",
+			""
+		]
 	}
 }

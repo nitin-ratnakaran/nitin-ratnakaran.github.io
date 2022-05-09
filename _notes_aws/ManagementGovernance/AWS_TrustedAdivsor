@@ -1,0 +1,29 @@
+---
+title:  AWS Trusted Advisor
+date: 2021-12-01 00:00:00 +0530
+categories: 
+  - AWS
+tags: 
+  - Governance and Management
+  - Trusted Advisor
+excerpt: AWS Trusted Advisor provides recommendations that help you follow AWS best practices. 
+
+---
+
+## Overview
+AWS Trusted Advisor provides recommendations that help you follow AWS best practices. Trusted Advisor evaluates your account by using checks. These checks identify ways to optimize your AWS infrastructure, improve security and performance, reduce costs, and monitor service quotas. You can then follow the check recommendations to optimize your services and resources.
+
+## References
+- [Home Page](https://aws.amazon.com/premiumsupport/technology/trusted-advisor/)
+- [FAQs](https://aws.amazon.com/premiumsupport/faqs/?nc=sn&loc=6)
+
+## Benefits
+- 
+
+
+## How it works
+
+
+
+## Features
+- 
