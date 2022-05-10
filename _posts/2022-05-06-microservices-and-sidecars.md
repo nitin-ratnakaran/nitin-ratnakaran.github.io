@@ -26,7 +26,7 @@ Once upon a time, there lived a microservice `GreeterService`. He led a simple, 
 ![]({{ site.url }}{{ site.baseurl }}/assets/images/sidecar/panel-01.svg){: .align-center}
 ![]({{ site.url }}{{ site.baseurl }}/assets/images/sidecar/panel-01-1.svg){: .align-center}
 
-## responsibilities
+## New responsibilities
 The architect, **Q**, was very pleased with `GreeterService` and decided to give him additional responsibilities. He wanted `GreeterService` to also show summary of new messages in the inbox.
 
 ![]({{ site.url }}{{ site.baseurl }}/assets/images/sidecar/panel-02.svg){: .align-center}
