@@ -1,6 +1,6 @@
 ---
 title:  "A guide to developing mature Microservices"
-date:   2022-01-29 00:00:00 +0530
+date:   2022-08-01 00:00:00 +0530
 categories: 
   - microservices 
 tags: 
@@ -15,7 +15,7 @@ toc: true
 toc_sticky: true
 ---
 
-Microservices have become the defacto architecture for most enterprise software and everybody is trying to build microservices. Many start with creating spring boot apps and think they are doing microservices. And initially everything is going great. But as the number of microservices grow they become hard to maintain and support in production. We have all been there. 
+Microservices have become the defacto architecture for most enterprise software and everybody is trying to either convert their monolith applications to microservices or start with greenfield microservices. Many start with creating spring boot apps and think they are doing microservices. And initially everything is going great. But as the number of microservices grow they become hard to maintain and support in production. We have all been there. 
 
 
 {% include figure image_path="/assets/images/not-easy.jpeg" alt="" caption="" %}{: .align-center .width-half}
